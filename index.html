@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi programa de clase 2025</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">MI PROGRAMA DE CLASE 2025</h1>
+            <nav>
+                <ul>
+                    <li><a href="#somos">¿Quiénes somos?</a></li>
+                    <li><a href="#nuestros-programas">Nuestros programas</a></li>
+                    <li><a href="#formulario">Contáctanos</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="media/Imagen1.png" class="d-block w-100" alt="Estudiantes programando">
+                <div id="hero">
+                    <h2>¡Aprendé a Programar <br>con los Mejores!</h2>
+                    <button>¡Aplicá Ya!</button>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="media/Imagen2.jpg" class="d-block w-100" alt="Clases prácticas">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="media/Imagen3.jpg" class="d-block w-100" alt="Ambiente universitario">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <section id="somos">
+  <div class="container">
+    <div class="img-container">
+      <img src="media/Programador.webp" alt="Estudiantes aprendiendo programación web" style="height: 400px; width: 400px; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); object-fit: cover;">
+    </div>
+    <div class="texto">
+      <h2>PROGRAMACIÓN WEB EN <span class="UTH">UTH</span></h2> <br>
+      <p>
+        La programación web es la disciplina encargada de crear y desarrollar aplicaciones o sitios web
+        que se ejecutan en navegadores y servidores. Combina lenguajes de frontend, como HTML, CSS y JavaScript,
+        que definen la estructura, el estilo y la interactividad de las páginas, con lenguajes de backend, como PHP, 
+        Python o Node.js, que manejan la lógica del servidor, bases de datos y procesamiento de información.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+    <section id="nuestros-programas">
+    <div class="container">
+        <h2>Nuestros Programas</h2> <br> <br>
+        <div class="programas">
+            <div class="carta">
+                <img src="media/Frontend.jpg" alt="Programador Front-end">
+                <h3>Programador Front-end</h3>
+                <p>Domina las tecnologías que dan vida a la interfaz de usuario: HTML, CSS y JavaScript. Aprendé a construir sitios web modernos, accesibles y responsivos que cautiven a los usuarios desde el primer clic.</p>
+                <button>+Información</button>
+            </div>
+            <div class="carta">
+                <img src="media/FullStack.webp" alt="Programador Full-Stack">
+                <h3>Programador Full-Stack</h3>
+                <p>Conectá el mundo del frontend con el backend y convertite en un desarrollador integral. Aprendé a crear aplicaciones completas, desde la interfaz hasta la lógica del servidor y la gestión de bases de datos.</p>
+                <button>+Información</button>
+            </div>
+            <div class="carta">
+                <img src="media/Python.jpg" alt="Programador Python">
+                <h3>Programador Python</h3>
+                <p>Explorá el poder de Python, uno de los lenguajes más versátiles y demandados. Desde desarrollo web hasta automatización y análisis de datos, este programa te prepara para múltiples áreas tecnológicas.</p>
+                <button>+Información</button>
+            </div>  
+        </div>
+    </div>
+</section>
+
+    <section id="formulario">
+        <div class="form-box">
+            <h1 class="text-center">Contáctanos</h1>
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo electrónico:</label>
+                <input type="email" class="form-control" id="correo" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+            <div class="d-grid">
+                <button type="button" class="btn_enviar">Enviar mensaje</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p><strong>@2025 Mi Programa de Clase. Todos los derechos reservados.</strong></p>
+        <p><strong>Clase: Programación Web 1</strong></p>
+        <p><strong>Ingeniero: Ángel Ramón Paz López</strong></p>
+        <p><strong>Estudiante: Carlos Yahir Chávez Guzmán</strong></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
